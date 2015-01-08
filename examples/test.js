@@ -1,6 +1,3 @@
-<meta charset=utf8>
-<link href="" rel="stylesheet">
-<script>
 var app = require("c3-line-backbone");
 
 // load in some dummy data
@@ -10,7 +7,7 @@ addRow();
 addRow();
 
 // create the view
-var v = new app.View({el: document.getElementById('test'), model: table});
+var v = new app.View({el: yourDiv, model: table});
 
 
 function addRow(){
@@ -24,4 +21,4 @@ function addRow(){
 // load more data
 var it = setInterval(addRow, 1000);
 
-</script>
+
